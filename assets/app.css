@@ -1,0 +1,20 @@
+body{
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+kbd{
+    font-size: 10em;
+    padding: 5px;
+}
+#btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.playing{
+    font-size: 10.5em;
+    transition-property: font-size;
+    transition-delay: 0.5s;
+}
